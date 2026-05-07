@@ -2,7 +2,7 @@
 
 This repo documents my progress through the **Hugging Face LLM Course** on large language models, including notes, experiments, and project ideas.[web:1][web:6]
 
-[Course link: ](https://huggingface.co/learn/llm-course/chapter0/1)
+[Course link](https://huggingface.co/learn/llm-course/chapter0/1)
 
 ---
 
