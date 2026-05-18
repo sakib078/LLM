@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python version manager
+.python-version
+
+# Editor/project files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model files (do not commit large checkpoints / weights)
+**/*.safetensors
+**/*.ckpt
+**/*.pt
+**/*.bin
+
+# Ignore any local directory that contains downloaded model files
+Using 🤗 Transformers/directory_on_my_computer/
+
+# Lock / build / caches
+uv.lock
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
