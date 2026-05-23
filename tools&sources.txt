@@ -1,0 +1,4 @@
+https://wandb.ai/home
+
+
+https://huggingface.co/learn/llm-course
