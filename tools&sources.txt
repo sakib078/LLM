@@ -1,4 +1,23 @@
+training report & analytics
+---------------------------------
+
 https://wandb.ai/home
 
+course link:
+---------------------------------
 
 https://huggingface.co/learn/llm-course
+
+transformer notebooks:
+---------------------
+sections
+
+1. NLP
+2. Computer Vision
+3. Audio
+4. Biological Sequences
+5. Other modalities
+6. Utility notebooks
+7. Optimum notebooks
+
+https://huggingface.co/docs/transformers/main/en/notebooks#pytorch-nlp
