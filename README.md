@@ -35,10 +35,6 @@ This repo documents my progress through the **Hugging Face LLM Course** on large
 
 Briefly list any side projects, notebooks, or repos you build while doing the course.
 
-### Coming soon....
-- `experiments/01-basic-inference.ipynb` – first LLM inference with 🤗 Transformers  
-- `experiments/02-finetune-classifier.ipynb` – fine-tuning a text classifier  
-- `experiments/03-rag-demo/` – small RAG pipeline demo
 
 ## Resources
 
