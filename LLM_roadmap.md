@@ -29,6 +29,10 @@
   - [Phase 4 — Building \& Deploying](#phase-4--building--deploying)
   - [Course Index](#course-index)
   - [Progress Tracker](#progress-tracker)
+    - [✅ Skills I Already Know](#-skills-i-already-know)
+    - [🔄 Currently Learning](#-currently-learning)
+    - [⬜ Structured Courses — Upcoming](#-structured-courses--upcoming)
+    - [⬜ Skills to Explore — Phase 4](#-skills-to-explore--phase-4)
 
 ---
 
@@ -214,22 +218,58 @@ After completing the courses, the goal is to ship real projects:
 | smol-course (fine-tuning) | HuggingFace | Intermediate | [huggingface.co/learn/smol-course](https://huggingface.co/learn/smol-course/unit0/1) |
 | NLP QA deep dive | HuggingFace Transformers Docs | Intermediate | [Transformers QA Task](https://huggingface.co/docs/transformers/main/en/tasks/question_answering) |
 
+----
 
 ## Progress Tracker
-
-- [x] Started HuggingFace LLM Course
-- [x] Learned tokenization & preprocessing for QA
-- [ ] Complete LLM Course Chapters 1–4
-- [ ] Complete LLM Course Chapters 5–9 (NLP tasks)
-- [ ] Complete LLM Course Chapters 10–12 (advanced)
-- [ ] Start AI Agents Course — Unit 1 (Agent Fundamentals)
-- [ ] Build first agent with smolagents
-- [ ] Complete AI Agents Course — Unit 2 (Frameworks)
-- [ ] Start MCP Course — Unit 1 (Fundamentals)
-- [ ] Build end-to-end MCP application (Unit 2)
-- [ ] Deploy MCP app (Unit 3)
-- [ ] Ship a personal project combining agents + MCP
-
+ 
+### ✅ Skills I Already Know
+ 
+| Skill | Confidence | Demand | Notes |
+|---|---|---|---|
+| Transformers & tokenization | Solid | 🔥 Core requirement | HuggingFace `AutoTokenizer`, attention, BPE, WordPiece |
+| NLP fundamentals | Solid | ✅ Foundation | Extractive QA, text/token classification, SQuAD format |
+| RAG architecture | Conceptual | 🔥 65% of LLM job posts | Pipeline design, dense vs sparse retrieval, chunking |
+| Vector databases | Conceptual | 🔥 High demand | Embeddings, similarity search, FAISS / Chroma / Pinecone |
+| Prompt engineering | Conceptual | 📈 135% YoY growth | Chain-of-thought, few-shot, system prompts, structured output |
+| AI agent frameworks | Conceptual | 🔥 High demand | smolagents, LlamaIndex, LangGraph — concepts |
+| MCP | Conceptual | 📈 Emerging standard | Protocol design, clients/servers/tools — concepts |
+ 
+### 🔄 Currently Learning
+ 
+| Task | Course | Status |
+|---|---|---|
+| Started HuggingFace LLM Course | HF LLM Course | ✅ Done |
+| Tokenization & preprocessing for QA | HF LLM Course | ✅ Done |
+| Complete Chapters 1–4 (Transformers fundamentals) | HF LLM Course | 🔄 In progress |
+| Complete Chapters 5–9 (NLP tasks) | HF LLM Course | 🔄 In progress |
+| Complete Chapters 10–12 (Advanced LLMs, Open R1) | HF LLM Course | ⬜ Upcoming |
+ 
+### ⬜ Structured Courses — Upcoming
+ 
+| Milestone | Course | Phase |
+|---|---|---|
+| Unit 1 — Agent Fundamentals | HF Agents Course | Phase 2 |
+| Build first agent with smolagents | HF Agents Course | Phase 2 |
+| Unit 2 — Frameworks (smolagents, LlamaIndex, LangGraph) | HF Agents Course | Phase 2 |
+| Unit 3 — Agentic RAG use cases | HF Agents Course | Phase 2 |
+| Unit 1 — MCP Fundamentals | HF MCP Course | Phase 3 |
+| Unit 2 — Build end-to-end MCP application | HF MCP Course | Phase 3 |
+| Unit 3 — Deploy MCP app | HF MCP Course | Phase 3 |
+ 
+### ⬜ Skills to Explore — Phase 4
+ 
+| Task | Skill Area | Priority |
+|---|---|---|
+| Set up LangSmith tracing on a project | LLMOps | 🔴 High |
+| Evaluate latency and cost of a RAG pipeline | LLMOps | 🔴 High |
+| Fine-tune a small model on a custom dataset | LoRA / PEFT | 🔴 High |
+| Complete Agents Bonus Unit 1 (function-calling fine-tune) | LoRA / PEFT | 🔴 High |
+| Evaluate a RAG pipeline with RAGAS | Evaluation | 🟡 Medium |
+| Write LLM unit tests with DeepEval | Evaluation | 🟡 Medium |
+| Run inference with a VLM (Qwen-VL or Gemma 3) | Multimodal | 🟡 Medium |
+| Build a multimodal RAG pipeline (images + text) | Multimodal | 🟡 Medium |
+| Ship a project combining agents + MCP + evaluation | All | 🏁 Goal |
+ 
 ---
-
+ 
 *Last updated: June 2026*
